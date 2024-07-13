@@ -8,4 +8,5 @@ import math
 x = int(input('Enter a x value: '))
 y = int(input('Enter a y value: '))
 print(x**y)
-print(math.log(x,2))
+print(math.log(x,2)) # second variable is the base first is the üs
+
