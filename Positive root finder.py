@@ -7,7 +7,7 @@ a = 34
 b = 68
 c = -510
 root_1 = (-b + (b**2 -4*a*c)**0.5)/2*a
-root_2 = (b + (b**2 -4*a*c)**0.5)/2*a
+root_2 = (-b - (b**2 -4*a*c)**0.5)/2*a
 
 def is_positive(a):
     if a > 0:
