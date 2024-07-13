@@ -16,7 +16,7 @@ def is_positive(a):
         return False
     
 if is_positive(root_1) and is_positive(root_2) :
-    print(f'Positive roots of the equation are:\n{root_1} and {root_2}')
+    print(f'Positive roots of the equation are:\n{root_1} and {root_2}')  # "alt+92" for \, \n alike enter 
 elif root_1 > root_2 and is_positive(root_1):
     print(f'Positive root of the equation is:\n{root_1}')
 elif root_2 > root_1 and is_positive(root_2):
