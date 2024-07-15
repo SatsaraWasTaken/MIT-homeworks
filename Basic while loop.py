@@ -9,4 +9,9 @@ i = 0
 while i < n :
     print(s)
     i += 1
+
+# Use that, easier
+N = int(input('Enter a whole number: '))
+for i in range(N):
+    print('hello world')
     
